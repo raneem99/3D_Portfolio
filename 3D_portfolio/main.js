@@ -36,6 +36,12 @@ const stars = new THREE.Points(starGeometry, starMaterial);
 
 scene.add(stars);
 
+// Create the moon
+const moonGeometry = new THREE.SphereGeometry(200, 32, 32);
+const moonMaterial = new THREE.MeshPhongMaterial({ color: 0xd3d3d3 });
+const moon = new THREE.Mesh(moonGeometry, moonMaterial);
+scene.add(moon);
+
 // Create lights
 const ambientLight = new THREE.AmbientLight(0x404040);
 scene.add(ambientLight);
@@ -49,6 +55,9 @@ function animate() {
   requestAnimationFrame(animate);
 
   stars.rotation.y += 0.001;
+  moon.rotation.y += 0.01; // Rotate the moon around its own axis
+  moon.position.x = GALAXY_RADIUS * Math.sin(Date.now() * 0.0001); // Move the moon in an orbit
+  moon.position.z = GALAXY_RADIUS * Math.cos(Date.now() * 0.0001); // Move the moon in an orbit
 
   renderer.render(scene, camera);
 }
