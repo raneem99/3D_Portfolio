@@ -24,6 +24,8 @@ Um die Szene zu animieren, definiere ich die Funktion „animate“, die rekursi
 
 Zum Schluss rufe ich die Funktion „animate()“ auf, um die Animationsschleife zu starten.
 
+Bemerkung: Die Erscheinung des Mondes erfordert eine gewisse Zeit, da er eine vollständige Umlaufbahn vollendet. Während dieser Umlaufbahn vollführt der Mond eine kreisförmige Bewegung, bis er wieder an seinen Ausgangspunkt gelangt und somit sichtbar wird. Diese zeitliche Verzögerung zwischen dem Beginn des Mondzyklus und dem Moment, in dem der Mond sichtbar wird, wird durch die vollständige Umlaufbahn des Mondes um die Galaxie verursacht.
+
 2. index.html:
 
 Die HTML-Datei legt die Grundstruktur der Webseite fest. Es enthält die notwendigen HTML-Elemente.
