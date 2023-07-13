@@ -1,4 +1,4 @@
-# 3D_Portfolio
+# 3D_Galaxy_Zusammenfassung
 
 1. main.js:
 
