@@ -26,6 +26,10 @@ Zum Schluss rufe ich die Funktion „animate()“ auf, um die Animationsschleife
 
 Bemerkung: Die Erscheinung des Mondes erfordert eine gewisse Zeit, da er eine vollständige Umlaufbahn vollendet. Während dieser Umlaufbahn vollführt der Mond eine kreisförmige Bewegung, bis er wieder an seinen Ausgangspunkt gelangt und somit sichtbar wird. Diese zeitliche Verzögerung zwischen dem Beginn des Mondzyklus und dem Moment, in dem der Mond sichtbar wird, wird durch die vollständige Umlaufbahn des Mondes um die Galaxie verursacht.
 
+Während der Umsetzung meines Projekts stieß ich auf verschiedene technische Herausforderungen. Zunächst hatte ich Schwierigkeiten damit, das Projekt zu erstellen und ein geeignetes Programm herunterzuladen, um die Ergebnisse zu betrachten. Dank einer Internetrecherche gelang es mir jedoch, das Problem erfolgreich zu lösen.
+
+Ein weiteres Hindernis trat auf, als ich versuchte, eine realistische Mondtextur hinzuzufügen. Mein Ziel war es, dem Mond ein authentisches Aussehen zu verleihen. Jedoch, als ich das entsprechende Bild zur Datei hinzufügte, erschien der Mond nicht wie gewünscht. Stattdessen wurde er als schattierter Kreis in schwarzgrauer Farbe dargestellt, was nicht dem beabsichtigten Erscheinungsbild entsprach.
+
 2. index.html:
 
 Die HTML-Datei legt die Grundstruktur der Webseite fest. Es enthält die notwendigen HTML-Elemente.
