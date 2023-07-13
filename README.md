@@ -29,7 +29,7 @@ Zum Schluss rufe ich die Funktion „animate()“ auf, um die Animationsschleife
 Die HTML-Datei legt die Grundstruktur der Webseite fest. Es enthält die notwendigen HTML-Elemente.
 
 
-3. style.css:
+3. style.css: 
 
 Die CSS-Datei enthält zwei Stile. Der „Body“-Stil setzt den Rand auf 0 und entfernt alle Standardabstände auf der Seite. Die Eigenschaft „overflow“ ist auf „hidden“ gesetzt, um sicherzustellen, dass keine Bildlaufleisten angezeigt werden, selbst wenn der Inhalt überläuft.
 
